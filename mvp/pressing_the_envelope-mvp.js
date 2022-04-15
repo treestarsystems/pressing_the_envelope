@@ -84,7 +84,7 @@ async function generateEmails () {
   returnObj.payload = ge;
   return returnObj;
  } catch (e) {
-  console.log(defaultErrorHandler(e));
+  return defaultErrorHandler(e);
  }
 }
 
@@ -128,6 +128,7 @@ async function searchForAccountName (file,searchString) {
    if (emails.status == 'failure') throw emails
    let fromAccountObj = await searchForAccountName(argv.j,argv.f);
    let toAccountObj = await searchForAccountName(argv.j,argv.t);
+   console.log();
    console.log(`From:\n ${JSON.stringify(fromAccountObj)}\nTo:\n ${JSON.stringify(toAccountObj)}\nAmount:\n ${JSON.stringify(emails.payload.length)}`);
    console.log(`Messages:\n ${JSON.stringify(emails.payload)}\n`);
   }
