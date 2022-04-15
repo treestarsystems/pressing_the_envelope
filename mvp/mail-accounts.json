@@ -1,0 +1,28 @@
+{
+ "o365":{
+  "trasnportMethod":"api",
+  "transportSettings": {
+   "user":"",
+   "pass":"",
+   "appID":"",
+   "appKey":""
+  },
+  "emailAddress":""
+ },
+ "gmail":{
+  "server": "server gmail"
+ },
+ "mail":{
+  "trasnportMethod":"smtp",
+  "transportSettings": {
+   "host": "smtp.example.com",
+   "port": 587,
+   "secure": false,
+   "auth": {
+    "user": "username",
+    "pass": "password"
+   }
+  },
+  "emailAddress":""
+ }
+}

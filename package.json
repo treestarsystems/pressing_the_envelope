@@ -1,0 +1,23 @@
+{
+  "name": "pressing_the_envelope",
+  "version": "1.0.0",
+  "description": "Mail system load test application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treestarsystems/pressing_the_envelope.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/treestarsystems/pressing_the_envelope/issues"
+  },
+  "homepage": "https://github.com/treestarsystems/pressing_the_envelope#readme",
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
+}
